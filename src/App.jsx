@@ -44,9 +44,9 @@ function App() {
         <div className="ui container">
           <Header />
           <Routes>
-            <Route path="/" element={<Main />} />
+            <Route path="contact-app/" element={<Main />} />
             <Route
-              path="/add"
+              path="contact-app/add"
               element={
                 <AddContact
                   contactsValue={contactsValue}
@@ -56,7 +56,7 @@ function App() {
               }
             />
             <Route
-              path="/mycontacts"
+              path="contact-app/mycontacts"
               element={
                 <ContactList
                   contacts={contacts}
@@ -65,7 +65,7 @@ function App() {
               }
             />
             <Route
-              path="/mycontacts/c/:id"
+              path="contact-app/mycontacts/c/:id"
               element={<CardDetails contacts={contacts} />}
             />
           </Routes>

@@ -23,7 +23,7 @@ export default function ContactCard(props) {
           </button>
         </div>
         <Link to={`c/${index}`}>
-          <img class="ui avatar image" src="/lindsay.png" />
+          <img class="ui avatar image" src="/contact-app/lindsay.png" />
           <div className="content">
             <div className="header">{name}</div>
             <div>{email}</div>

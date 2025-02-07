@@ -5,10 +5,10 @@ export default function Main() {
   return (
     <>
       <div class="ui fluid menu">
-        <Link to="/mycontacts">
+        <Link to="/contact-app/mycontacts">
           <a class="item">MyContacts</a>
         </Link>
-        <Link to="/add">
+        <Link to="/contact-app/add">
           <a class="item">Add Contact</a>
         </Link>
       </div>

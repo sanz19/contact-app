@@ -20,7 +20,7 @@ export default function AddContact(props) {
     handleAddContact(contactsValue);
     setContactsValue({ name: "", email: "" });
     setErrorMessage("");
-    navigate("/reactjs-contact-app/mycontacts");
+    navigate("/contact-app/mycontacts");
   }
 
   return (

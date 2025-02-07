@@ -20,7 +20,7 @@ export default function ContactList(props) {
           );
         })}
       </div>
-      <Link to="/add">
+      <Link to="/contact-app/add">
         <button className="ui button fluid">Add contact</button>
       </Link>
     </>
