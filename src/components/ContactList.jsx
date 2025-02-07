@@ -20,7 +20,7 @@ export default function ContactList(props) {
           );
         })}
       </div>
-      <Link to="/reactjs-contact-app/add">
+      <Link to="/add">
         <button className="ui button fluid">Add contact</button>
       </Link>
     </>

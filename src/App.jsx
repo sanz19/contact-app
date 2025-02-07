@@ -44,9 +44,9 @@ function App() {
         <div className="ui container">
           <Header />
           <Routes>
-            <Route path="reactjs-contact-app/" element={<Main />} />
+            <Route path="/" element={<Main />} />
             <Route
-              path="reactjs-contact-app/add"
+              path="/add"
               element={
                 <AddContact
                   contactsValue={contactsValue}
@@ -56,7 +56,7 @@ function App() {
               }
             />
             <Route
-              path="reactjs-contact-app/mycontacts"
+              path="/mycontacts"
               element={
                 <ContactList
                   contacts={contacts}
@@ -65,7 +65,7 @@ function App() {
               }
             />
             <Route
-              path="reactjs-contact-app/mycontacts/c/:id"
+              path="/mycontacts/c/:id"
               element={<CardDetails contacts={contacts} />}
             />
           </Routes>

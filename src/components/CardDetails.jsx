@@ -16,7 +16,7 @@ export default function CardDetails(props) {
       <div className="ui link cards centered">
         <div className="card">
           <div className="image">
-            <img src="/reactjs-contact-app/lindsay.png" />
+            <img src="/lindsay.png" />
           </div>
           <div className="content">
             <div className="header">{name}</div>
@@ -32,7 +32,7 @@ export default function CardDetails(props) {
               75 Friends
             </span>
           </div>
-          <Link to="/reactjs-contact-app/">
+          <Link to="/">
             <button className="ui button fluid">Go to Menu</button>
           </Link>
         </div>
